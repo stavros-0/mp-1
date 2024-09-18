@@ -1,0 +1,153 @@
+*{
+  margin:0;
+  box-sizing:border-box;
+  
+}
+#layout{
+  display:flex;
+}
+
+body {
+  background-color: rgb(179, 213, 218);
+}
+
+header{
+  align-items: left;
+  padding: 1%;
+  margin-bottom: .2%;
+  background-color: gray;
+}
+#image_text {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: large;
+  border: 2px solid gray; /* Use px for border-width */
+  background-color: white;
+  border-radius: 5px;    /* Use px for border-radius */
+  padding: 1.2%;         /* Optional: Add some padding inside the border */
+  filter: drop-shadow(5px 5px);
+  line-height: 1.8; 
+  margin-bottom:5%;
+  padding-bottom:2%;
+}
+nav {
+  width: 30%;
+  display: flex; 
+  flex-direction: column;
+  font-size: large;
+  border: 2px solid gray;
+  border-radius:2%;
+  background: rgb(216, 212, 212);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding:1%;
+}
+
+nav ul {
+  list-style: none;
+  padding:0;
+  margin:0;
+  
+}
+
+nav li {
+  
+  padding: 5% 1%;
+  color: black;
+  border: solid .5px black;
+  border-radius: 1%;
+  margin: 5% 0;
+  text-align: center;
+  background-color: white;
+
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+
+}
+
+  main {
+    padding: 20px;
+    width: 70%;
+    margin-top: 20px; /* Adds space between the nav and main borders */
+    
+}
+
+main img {
+  
+  margin-right: 20px; /* Add space between the image and the text */
+  filter: drop-shadow(5px 5px);
+  margin-bottom: 20px; /* Add space below the headshot */
+  
+}
+
+#profile_container{
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  
+  
+}
+
+#profile_container img {
+  width: 25%;
+  height: auto;
+  margin-right: 5%;
+  max-width: 100%;
+  
+}
+
+
+#home_images {
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 5%;
+}
+
+#home_images img {
+  width: 25%;
+  height: auto;
+  margin-right: 5%;
+  max-width: 100%;
+ 
+}
+
+
+footer{
+  background:rgb(216, 212, 212); 
+  padding: 2px;
+  margin-top: 20px;
+}
+
+
+@media screen and (max-width: 750px) {
+  #layout {
+    flex-direction: column; 
+  }
+  nav {
+    width: 100%;
+    display: block;
+  }
+
+  nav ul {
+    display:flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    width: 100%;
+  }
+
+  nav li {
+    margin: 0 1%;
+    padding: 1% 2%;
+    flex: 1;
+  }
+}
+header{
+  align-items: center;
+}
+main{
+  width:100%;
+}
