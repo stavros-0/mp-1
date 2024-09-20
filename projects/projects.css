@@ -6,7 +6,6 @@
 
 #layout {
     display: flex;
-    flex-direction: row;
 }
 
 body {
@@ -15,8 +14,7 @@ body {
 
 header {
     padding: 1%;
-    margin-bottom: .2%;
-    background-color: gray;
+    background-color: teal;
 }
 
 .image_text {
@@ -29,6 +27,8 @@ header {
     line-height: 1.8;
     margin-bottom: 5%;
     padding: 1.25%;
+    align-content: center;
+    justify-content: center;
 }
 
 nav {
@@ -36,8 +36,7 @@ nav {
     display: flex;
     flex-direction: column;
     border: 2px solid gray;
-    border-radius: 2%;
-    background: rgb(216, 212, 212);
+    background: teal;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding: 1%;
 }
@@ -58,7 +57,6 @@ nav li {
     text-align: center;
     background-color: white;
 
-
 }
 
 nav a {
@@ -76,17 +74,19 @@ main {
 
 .profile_container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
+    justify-content: center;
+
 }
 
 .profile_container img {
-    width: 70%;
+    width: 60%;
     height: auto;
     margin-right: 5%;
     max-width: 200%;
     filter: drop-shadow(5px 5px);
-    margin-bottom: 20px;
+    margin-bottom: 2%;
 
 }
 
@@ -94,10 +94,8 @@ main {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: flex-end;
-    flex-wrap: wrap;
-    margin-top: 8%;
-
+    justify-content: flex-start;
+    margin-top: 5%;
 }
 
 #home_images img {
@@ -109,10 +107,53 @@ main {
 
 }
 
+#calculator {
+    padding-top: 1%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid gray;
+    background-color: rgb(216, 212, 212);
+    filter: drop-shadow(5px 5px);
+    margin-bottom: 5%;
+}
+
+#inputs {
+    margin: 1%;
+    display: flex;
+    flex-direction: row;
+    gap: 1%
+}
+
+input {
+    width: 90%;
+    padding: 2% 4%;
+}
+
+button {
+    color: black;
+}
+
+#buttons {
+    margin: 1%;
+    display: flex;
+    gap: 1%;
+
+}
+
+#output {
+    background-color: white;
+    margin: 3% 0;
+    padding: 3% 5%;
+    border: 2px solid gray;
+    color: black;
+}
+
 footer {
     background: rgb(216, 212, 212);
-    padding: 2px;
-    margin-top: 20px;
+    padding: .2%;
+    margin-top: 2%;
 }
 
 
@@ -123,13 +164,13 @@ footer {
 
     .profile_container {
         flex-direction: column;
-
     }
 
     .image_text {
         display: flex;
         flex-direction: column;
-        justify-content: flex-end;
+
+
     }
 
     main {
@@ -155,8 +196,8 @@ footer {
         font-size: medium;
     }
 
-    nav a{
-      font-size: calc(2px + 1vw);
+    nav a {
+        font-size: calc(2px + 1vw);
     }
 
     header {

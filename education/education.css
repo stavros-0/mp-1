@@ -15,8 +15,8 @@ body {
 
 header {
     padding: 1%;
-    margin-bottom: .2%;
-    background-color: gray;
+
+    background-color: beige;
 }
 
 .image_text {
@@ -36,8 +36,7 @@ nav {
     display: flex;
     flex-direction: column;
     border: 2px solid gray;
-    border-radius: 2%;
-    background: rgb(216, 212, 212);
+    background: beige;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding: 1%;
 }
@@ -78,15 +77,17 @@ main {
     display: flex;
     flex-direction: row;
     align-items: center;
+    padding: 3%;
 }
 
 .profile_container img {
-    width: 70%;
+    width: 80%;
     height: auto;
     margin-right: 5%;
+    margin-bottom: 5%;
     max-width: 200%;
     filter: drop-shadow(5px 5px);
-    margin-bottom: 20px;
+
 
 }
 
@@ -111,8 +112,8 @@ main {
 
 footer {
     background: rgb(216, 212, 212);
-    padding: 2px;
-    margin-top: 20px;
+    padding: .2%;
+    margin-top: 2%;
 }
 
 
@@ -155,8 +156,8 @@ footer {
         font-size: medium;
     }
 
-    nav a{
-      font-size: calc(2px + 1vw);
+    nav a {
+        font-size: calc(2px + 1vw);
     }
 
     header {
