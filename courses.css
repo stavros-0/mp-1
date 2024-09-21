@@ -79,12 +79,12 @@ main {
 }
 
 .profile_container img {
-    width: 90%;
+    width: 30%;
     height: auto;
-    margin: 5%;
-    max-width: 200%;
+    margin-right: 5%;
+    max-width: 50%;
     filter: drop-shadow(5px 5px);
-
+    margin-bottom: 2%;
 
 }
 

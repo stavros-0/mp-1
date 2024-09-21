@@ -76,11 +76,14 @@ main {
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
 }
 
 .profile_container img {
     width: 40%;
     height: auto;
+    justify-content: center;
+    align-items: center;
     margin-right: 5%;
     max-width: 50%;
     filter: drop-shadow(5px 5px);
