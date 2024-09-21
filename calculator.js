@@ -13,7 +13,15 @@ function subtraction(){
     second = document.getElementById("second-number").value;
     second = Number(second);
     answer = first - second;
-    document.getElementById("output").innerHTML = answer
+    if(second>first){
+        document.getElementById("output").innerHTML = answer;
+        document.getElementById("output").style.color = "red";
+    }
+    else{
+        document.getElementById("output").innerHTML = answer;
+    }
+
+
 }
 
 function multiplication(){
