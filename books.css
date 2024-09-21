@@ -79,14 +79,15 @@ main {
 }
 
 .profile_container img {
-    width: 70%;
+    width: 40%;
     height: auto;
     margin-right: 5%;
-    max-width: 200%;
+    max-width: 50%;
     filter: drop-shadow(5px 5px);
-    margin-bottom: 20px;
+    margin-bottom: 2%;
 
 }
+
 
 #home_images {
     display: flex;
